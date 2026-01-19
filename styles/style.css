@@ -41,14 +41,15 @@ main {
 .common-description {
   font-size: 1rem;
   font-weight: 400;
-  color: #FFFFFF;
+  color: rgba(223, 204, 204, 0.89);
+
   padding: 16px 0;
 }
 
 .common-section-title {
   font-size: 2rem;
   font-weight: bold;
-  color: rgba(223, 204, 204, 0.89);
+  color: #FFFFFF;
   padding-bottom: 20px;
   text-align: center;
 }
@@ -195,7 +196,10 @@ main {
 .tachwave-contant img {
   width: 40px;
   height: 45px;
+
 }
+
+
 
 .podcast-rating h2 {
   font-size: 3rem;
@@ -259,4 +263,55 @@ main {
 .double-column {
   grid-column: span 2;
   grid-row: span 1;
+}
+
+/* featured container styles */
+.featured-container {
+  background-color: rgba(26, 11, 46, 1);
+  padding: 70px 0;
+}
+
+.featured-contants {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.featured-contant {
+
+  background-color: rgba(37, 13, 68, 1);
+  border-radius: 10px;
+}
+
+.featured-contant h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+.featured-contant p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(223, 204, 204, 0.89);
+}
+
+.you-vedio iframe {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-info {
+  padding: 5px 10px 15px 10px;
+}
+
+#clock {
+  color: #00FF88;
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
 }
