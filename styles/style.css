@@ -2,79 +2,166 @@
 
 
 .open-sans-inter {
- font-family: "Open Sans", sans-serif;
- font-optical-sizing: auto;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
 
 }
 
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 main {
- max-width: 1440px;
- margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 main>section {
- padding: 100px 0;
+  padding: 100px 0;
 }
 
 /* common styles*/
 
 .display-flex {
- display: flex;
+  display: flex;
 }
 
 .btn-primary {
- font-size: 1rem;
- color: #FFFFFF;
- padding: 12.5px 30px 12.5px 16px;
- border-radius: 25px;
- background: linear-gradient(45deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
- border: none;
+  font-size: 1rem;
+  color: #FFFFFF;
+  padding: 12.5px 30px 12.5px 16px;
+  border-radius: 25px;
+  background: linear-gradient(45deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  border: none;
 }
 
 .bg-light {
- background-color: rgba(26, 11, 46, 1);
+  background-color: rgba(26, 11, 46, 1);
+}
+
+.common-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 16px 0;
 }
 
 /* navigation bar styles */
+.header-container {
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
 .nav-bar {
- max-width: 1440px;
- margin: 0 auto;
- align-items: center;
- justify-content: space-around;
- padding: 30px 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px 0;
 }
 
 .nav-title {
- font-size: 2rem;
- font-weight: bolder;
- color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #FFFFFF;
 }
 
 .wave-color {
- background: linear-gradient(to top,
-   rgba(247, 233, 63, 1),
-   rgba(251, 9, 180, 1),
-   rgba(145, 0, 248, 1));
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+  background: linear-gradient(to top,
+      rgba(247, 233, 63, 1),
+      rgba(251, 9, 180, 1),
+      rgba(145, 0, 248, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .nav-link li {
- list-style: none;
- margin-right: 45px;
- font-size: 1.25rem;
- font-weight: 500;
+  list-style: none;
+  margin-right: 45px;
+  font-size: 1.25rem;
+  font-weight: 500;
 
 }
 
 .nav-link li a {
- text-decoration: none;
- color: #FFFFFF;
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+
+/* banner section styles */
+.banner-container {
+  background-image: url(../assets/hero-circle.png), url(../assets/hero-bg.png);
+  /* background-repeat: no-repeat, no-repeat;
+ background-size: cover, cover; */
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20%, cover;
+  background-position: top 60px center, center center;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  position: relative;
+
+}
+
+.banner-contants img {
+  padding-top: 20px;
+  width: 116px;
+  height: 175px;
+}
+
+.banner-contant {
+  padding-top: 80px;
+}
+
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #FFFFFF;
+}
+
+.new-badge {
+  background-color: #00FF88;
+  color: #1A0B2E;
+  padding: 8px 16px;
+  border-radius: 25px;
+  position: absolute;
+  top: 55px;
+  left: 775px;
+}
+
+.banner-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.banner-contant img {
+  text-align: center;
+  width: 20px;
+  height: 40px;
+}
+
+.spotify-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  background: linear-gradient(45deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  border: none;
+
+}
+
+.spotify-icon {
+  width: 24px;
+  height: 24px;
+
+
 
 }
