@@ -34,15 +34,14 @@
           <span class="new-badge">New</span>
           <h2 class="banner-title">TechWave</h2>
           <p class="common-description">Your daily dose of tech insights, productivity hacks, and personal growth</p>
-
-          <a href="" class="spotify-btn">
-            <img class="spotify-icon" src="./assets/spotify.png" alt="">
-            Listen On Spotify
-          </a>
-
-          <button class="btn-message">
-            <img src="./assets/message.png" alt="">
-            Subscribe</button>
+          <div class="banner-btn display-flex">
+            <button class=" spotify-btn">
+              <span class="icon-message"> <img src="./assets/spotify.png" alt="icon"></span>
+              <span> Listen on Spotify</span></button>
+            <button class="btn-message">
+              <span class="icon-message"> <img src="./assets/message.png" alt="icon"></span>
+              <span> Subscribe</span></button>
+          </div>
         </div>
       </div>
     </section>
@@ -71,7 +70,7 @@
             <p>Episodes Published</p>
           </div>
           <div class="podcast-rating">
-            <h2>4.9<i class="fa-solid fa-star"></i> </h2>
+            <h2>4.9<span><i class="fa-solid fa-star"></i></span> </h2>
             <p>Average Rating</p>
           </div>
           <div class="podcast-rating">
@@ -103,7 +102,7 @@
             <p>Connect with tech enthusiasts from over 120 countries worldwide..</p>
           </div>
           <div class="tachwave-contant double-column">
-            <img src="./assets/image.png" alt="">
+            <span class="exclusive-img"><img src="./assets/image.png" alt=""></span>
             <h3>Exclusive Interviews</h3>
             <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures
               exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and
@@ -192,6 +191,32 @@
         </div>
       </div>
     </section>
+    <footer>
+      <div class="footer-container   display-flex">
+        <div>
+          <h1 class="footer-title">Tech<span class="wave-color">Wave</span></h1>
+          <div class="social-icons">
+            <div class="social-icon">
+              <span><img src="./assets/spotify.png" alt=""></span>
+              <p class="common-description">spotify</p>
+            </div>
+            <div class="social-icon">
+              <span><img src="./assets/apple-podcast.png" alt=""></span>
+              <p class="common-description">Apple podcast</p>
+            </div>
+            <div class="social-icon">
+              <span><img src="./assets/youtube-podcast.png" alt=""></span>
+              <p class="common-description">YouTube</p>
+            </div>
+            <div class="social-icon">
+              <span><img src="./assets/twitter.png" alt=""></span>
+              <p class="common-description">twitter</p>
+            </div>
+          </div>
+          <p class="common-description">© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </main>
 </body>
 

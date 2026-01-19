@@ -41,7 +41,7 @@ main {
 .common-description {
   font-size: 1rem;
   font-weight: 400;
-  color: rgba(223, 204, 204, 0.89);
+  color: rgba(168, 164, 164, 0.89);
 
   padding: 16px 0;
 }
@@ -50,7 +50,7 @@ main {
   font-size: 2rem;
   font-weight: bold;
   color: #FFFFFF;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
@@ -101,16 +101,13 @@ main {
 /* banner section styles */
 .banner-container {
   background-image: url(../assets/hero-circle.png), url(../assets/hero-bg.png);
-  /* background-repeat: no-repeat, no-repeat;
- background-size: cover, cover; */
   background-repeat: no-repeat, no-repeat;
   background-size: 20%, cover;
   background-position: top 60px center, center center;
-
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 75vh;
   position: relative;
 
 }
@@ -154,25 +151,56 @@ main {
   height: 40px;
 }
 
+.banner-btn {
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
 .spotify-btn {
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #FFFFFF;
   background: linear-gradient(45deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
-  border: none;
-
-}
-
-.spotify-icon {
-  width: 24px;
-  height: 24px;
-
+  border-radius: 20px;
+  padding: 0 50px;
+  font-size: 1.25rem;
+  height: 45px;
 
 
 }
+
+
+
+.btn-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00FF88;
+  border: 1px solid #00FF88;
+  border-radius: 20px;
+  padding: 0 35px;
+  background-color: rgba(26, 11, 46, 1);
+  height: 45px;
+
+}
+
+.icon-message {
+  padding: 0 10px 18px 0;
+}
+
+.btn-message img {
+  width: 90%;
+  height: 90%;
+}
+
+
+
+
 
 /* podcast section styles */
+
 .podcast-container {
   background-color: rgba(26, 11, 46, 1);
   padding: 70px 0;
@@ -206,6 +234,8 @@ main {
   font-weight: bolder;
   color: #00FF88;
 
+
+
 }
 
 .podcast-rating p {
@@ -215,10 +245,13 @@ main {
 }
 
 .fa-star {
-  font-size: 2.5rem;
+  font-size: 2rem;
+
 }
 
 /* techwave section styles */
+
+
 .techwave-container {
   background-color: rgba(35, 14, 61, 1);
   padding: 70px 0;
@@ -237,21 +270,22 @@ main {
 .tachwave-contant {
   background-color: rgba(53, 17, 101, 0.4);
   border-radius: 20px;
-  padding: 50px 0 20px 20px;
+  padding: 20px 0 20px 20px;
 }
 
 .tachwave-contant h3 {
   font-size: 1.25rem;
   font-weight: 600;
   color: #FFFFFF;
-  padding: 10px 0;
+  padding: 5px 0;
 
 }
 
 .tachwave-contant p {
   font-size: 1rem;
   font-weight: 400;
-  color: rgba(223, 204, 204, 0.89);
+  color: rgba(168, 164, 164, 0.89);
+  padding-bottom: 10px;
 
 }
 
@@ -263,6 +297,11 @@ main {
 .double-column {
   grid-column: span 2;
   grid-row: span 1;
+}
+
+.exclusive-img img {
+  width: 80px;
+  height: 50px;
 }
 
 /* featured container styles */
@@ -367,4 +406,40 @@ main {
   border: 1px solid rgba(83, 60, 114, 1);
   border-radius: 50%;
   padding: 10px;
+}
+
+/* footer-section- styles */
+.footer-container {
+  background-image: url(../assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  height: 50vh;
+
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.social-icons {
+
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 32px 0;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-title {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #FFFFFF;
 }
