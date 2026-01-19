@@ -48,7 +48,9 @@ main {
 .common-section-title {
   font-size: 2rem;
   font-weight: bold;
-  color: #FFFFFF;
+  color: rgba(223, 204, 204, 0.89);
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 /* navigation bar styles */
@@ -190,6 +192,11 @@ main {
   justify-content: space-between;
 }
 
+.tachwave-contant img {
+  width: 40px;
+  height: 45px;
+}
+
 .podcast-rating h2 {
   font-size: 3rem;
   font-weight: bolder;
@@ -205,4 +212,51 @@ main {
 
 .fa-star {
   font-size: 2.5rem;
+}
+
+/* techwave section styles */
+.techwave-container {
+  background-color: rgba(35, 14, 61, 1);
+  padding: 70px 0;
+}
+
+
+.techwave-contants {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 220px);
+  gap: 30px;
+}
+
+.tachwave-contant {
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 20px;
+  padding: 50px 0 20px 20px;
+}
+
+.tachwave-contant h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 10px 0;
+
+}
+
+.tachwave-contant p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(223, 204, 204, 0.89);
+
+}
+
+.double-row {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.double-column {
+  grid-column: span 2;
+  grid-row: span 1;
 }
