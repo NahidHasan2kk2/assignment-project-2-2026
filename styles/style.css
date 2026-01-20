@@ -108,7 +108,7 @@ main {
   background-image: url(../assets/hero-circle.png), url(../assets/hero-bg.png);
   background-repeat: no-repeat, no-repeat;
   background-size: 20%, cover;
-  background-position: top 60px center, center center;
+  background-position: top 72px center, center center;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -496,7 +496,7 @@ main {
 
   /* banner media styles */
   .banner-container {
-    background-position: top 125px center, center center;
+    background-position: top 135px center, center center;
     height: 420px;
     padding: 0 50px;
     position: relative;
