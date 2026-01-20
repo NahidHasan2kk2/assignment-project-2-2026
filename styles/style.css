@@ -203,10 +203,7 @@ main {
   height: 45px;
   cursor: pointer;
 
-
 }
-
-
 
 .btn-message {
   display: flex;
@@ -230,9 +227,6 @@ main {
   width: 90%;
   height: 90%;
 }
-
-
-
 
 
 /* podcast section styles */
@@ -259,17 +253,10 @@ main {
 
 }
 
-
-
-
-
 .podcast-rating h2 {
   font-size: 3rem;
   font-weight: bolder;
   color: #00FF88;
-
-
-
 }
 
 .podcast-rating p {
@@ -284,7 +271,6 @@ main {
 }
 
 /* techwave section styles */
-
 
 .techwave-container {
   background-color: rgba(35, 14, 61, 1);
@@ -489,13 +475,7 @@ main {
 
 }
 
-
-
-
-.display-none {
-  display: none;
-}
-
+/* for small device responsive */
 @media screen and (max-width:576px) {
   .hamburger-menu {
     display: block;
@@ -516,7 +496,7 @@ main {
 
   /* banner media styles */
   .banner-container {
-    background-position: top 130px center, center center;
+    background-position: top 125px center, center center;
     height: 420px;
     padding: 0 50px;
     position: relative;
@@ -537,7 +517,7 @@ main {
   .new-badge {
     padding: 2px 8px;
     top: 30%;
-    left: 50%;
+    left: 55%;
   }
 
   .banner-img img {
@@ -680,8 +660,6 @@ main {
   .host-icons {
     align-items: center;
     justify-content: center;
-
-
 
   }
 
