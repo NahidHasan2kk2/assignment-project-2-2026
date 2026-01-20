@@ -56,6 +56,10 @@ main {
 }
 
 /* navigation bar styles */
+.hamburger-menu {
+  display: none;
+}
+
 .header-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -237,11 +241,13 @@ main {
 
 .podcast-ratings {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 30px;
   width: 70%;
   margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
 }
 
 .tachwave-contant img {
@@ -465,4 +471,46 @@ main {
   font-size: 4rem;
   font-weight: bolder;
   color: #FFFFFF;
+}
+
+.display-none {
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-link,
+  .nav-btn {
+    display: none;
+  }
+
+  .nav-bar {
+
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+  }
+
+  /* podcast media style */
+
+
+  .podcast-contant {
+    width: 90%;
+    margin: 0 auto
+  }
+
+  .podcast-ratings {
+    text-align: center;
+
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+  }
 }

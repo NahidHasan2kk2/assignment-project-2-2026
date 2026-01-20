@@ -15,6 +15,9 @@
   <header class="header-container ">
     <nav class="display-flex nav-bar bg-light">
       <h1 class="nav-title">Tech<span class="wave-color">Wave</span></h1>
+      <div class="hamburger-menu">
+        <img src="./assets/hamburger-menu.png" alt="">
+      </div>
       <ul class="nav-link display-flex">
         <li><a href="">About</a></li>
         <li><a href="">Episodes</a></li>
@@ -22,11 +25,11 @@
 
 
       </ul>
-      <div>
+      <div class="nav-btn">
         <button class="btn-primary">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </nav>
-    <section class="banner-container display-flex">
+    <section class="banner-container display-flex display-none">
       <div class="banner-contants">
         <img src="./assets/microphone.png" alt="">
 
@@ -58,9 +61,11 @@
               and share stories of personal growth from industry leaders.
 
               Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            <hr>
           </div>
         </div>
-        <div class="podcast-ratings display-flex">
+
+        <div class="podcast-ratings">
           <div class="podcast-rating">
             <h2>150K+</h2>
             <p>Monthly Listeners</p>
@@ -81,7 +86,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="display-none">
       <div class="techwave-container">
         <h2 class="common-section-title">Why Choose TechWave</h2>
         <div class="techwave-contants">
@@ -116,7 +121,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="display-none">
 
       <div class="featured-container">
         <h2 class="common-section-title">Featured Episodes</h2>
@@ -169,7 +174,7 @@
 
 
     </section>
-    <section>
+    <section class="display-none">
       <div class="host-container">
         <h2 class="common-section-title">Meet the Host</h2>
         <div class="host-contants">
@@ -191,7 +196,7 @@
         </div>
       </div>
     </section>
-    <footer>
+    <footer class="display-none">
       <div class="footer-container   display-flex">
         <div>
           <h1 class="footer-title">Tech<span class="wave-color">Wave</span></h1>
